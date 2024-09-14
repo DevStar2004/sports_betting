@@ -53,6 +53,12 @@ export const popularData = [
     linkText: "Volleyball",
     href: "/volleyball",
   },
+  {
+    id: 26579,
+    image: "/images/icon/rugby.png",
+    linkText: "Rugby",
+    href: "/rugby",
+  },
   // {
   //   id: 26344,
   //   image: "/images/icon/fifa-volta.png",
