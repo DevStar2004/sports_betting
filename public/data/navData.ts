@@ -202,11 +202,11 @@ export const naviTemData = [
     linkText: "Live Betting",
     href: "/floorball",
   },
-  {
-    id: 151272,
-    linkText: "Sports",
-    href: "/soccer",
-  },
+  // {
+  //   id: 151272,
+  //   linkText: "Sports",
+  //   href: "/soccer",
+  // },
   // {
   //   id: 155534,
   //   linkText: "eSports",

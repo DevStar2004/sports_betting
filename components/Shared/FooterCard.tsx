@@ -32,7 +32,7 @@ export default function FooterCard() {
     }, [isCardExpanded]);
 
 
-    const items = ['Single', 'Multiple', 'System']
+    const items = ['Single', 'Multiple']
     const [activeItem, setActiveItem] = useState(items[0]);
     const handleClick = (itemName: string) => {
         setActiveItem(itemName);
@@ -47,7 +47,7 @@ export default function FooterCard() {
     return (
         <>
             <div className={`fixed_footer p3-bg rounded-5 ${isCardExpanded ? "expandedtexta" : "expanded2"}`}>
-                <div className="fixed_footer__head py-3 px-4">
+                <div className="fixed_footer__head1 py-3 px-4">
                     <div className="d-flex justify-content-between">
                         <div className="fixed_footer__head-betslip d-flex align-items-center gap-2">
                             <span className="fw-bold">Betslip</span>
@@ -235,8 +235,8 @@ export default function FooterCard() {
                                             <span className="fs-seven">Possible win</span>
                                             <span className="fs-seven fw-bold">$900</span>
                                         </div>
-                                        <button type="button" className="cmn-btn px-5 py-3 w-100 mb-4">Place Bet</button>
-                                        <button type="button" className="cmn-btn third-alt px-5 py-3 w-100 mb-6">Book</button>
+                                        <button type="button" className="cmn-btn2 px-5 py-3 w-100 mb-4">Place Bet</button>
+                                        <button type="button" className="cmn-btn2 third-alt px-5 py-3 w-100 mb-6">Book</button>
                                     </form>
                                 </div>
                                 <div className="fixed_footer__content-bottom d-flex align-items-center justify-content-between">
